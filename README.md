@@ -1,22 +1,16 @@
 ## Usage
 
-Install dependencies:
+Install all dependencies:
 
 ```bash
 yarn install
 yarn bootstrap
 ```
 
-Run scripts inside desired example:
+Run scripts example:
 
 ```bash
-yarn workspace <name> run start
-yarn workspace <name> run ios
-yarn workspace <name> run android
-```
-
-for example:
-
-```bash
-yarn workspace host run start
+yarn start
+yarn run:host:ios
+yarn run:host:android
 ```
