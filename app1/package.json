@@ -2,12 +2,16 @@
   "name": "app1",
   "version": "0.0.1",
   "private": true,
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  },
   "scripts": {
     "android": "react-native run-android --no-packager",
     "ios": "react-native run-ios --no-packager",
     "lint": "eslint .",
     "start": "react-native start --port 9000",
-    "test": "jest"
+    "test": "jest",
+    "pod_install": "cd ./ios && pod install"
   },
   "dependencies": {
     "react": "18.2.0",
